@@ -1,5 +1,5 @@
 ##Newton Raphson Method
-#this method used for finding root of a continious and differentiable funcitons
+#this method used for finding root of a continious and differentiable funciton
 #first step ==> input an estimation of a point(xi) that nearby real root
 #second step ==> newton-raphson approximates the root by...
 
