@@ -1,5 +1,5 @@
 ##Newton Raphson Method
-#this method used for finding root of a continious and differentiable funciton
+#this method used for finding root of a continious and differentiable function
 #first step ==> input an estimation of a point(xi) that nearby real root
 #second step ==> newton-raphson approximates the root by...
 
@@ -45,7 +45,7 @@ def DesiredErr(): #general representation of specified error
 from sympy import *
 import sympy as sym
 
-x = symbols('x') #in this form one can establish any kind of letter that corresponding function has written 
+x = symbols('x') #in this form one can establish any kind of letter that corresponding function has written with
 
 #%%
 #creating empty lists to be use as arrays for storing output data later
@@ -66,7 +66,7 @@ f = x**3 + x*4 + x**5 - x**2 + 5*x**2 - 6*x**5
 funciton that I had written is this, but it can be easily readjusted in Python syntax
 '''
 
-diff = sym.diff(f) 
+diff = sym.diff(f) #differential form of the function
 es,_ = DesiredErr() #es ==> specified error
 x_i = int(input("please enter a near point to the root: ")) #getting a near point from user
 
