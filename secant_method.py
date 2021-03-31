@@ -45,7 +45,7 @@ def DesiredErr(): #general representation of specified error
     percent_val = numeric_val*100
     return numeric_val, int(percent_val)
 
-def InıtGuess():
+def InitGuess():
     '''
     inputs ==> user enters 2 variables to be used in further calculations
     variables : 2 initial guess about the root of the given equation
